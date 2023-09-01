@@ -1,0 +1,62 @@
+:root{
+    /* ------- Primary color ------------- */
+    --Dark__cyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+
+    /* --------- Neutral color ----------- */
+    --Very__dark__blue: hsl(212, 21%, 14%);
+    --Dark__grayish__blue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+
+    /* ---------- Typography -------------- */
+    --fSize : 1.4rem; 
+    --fFamily__Fraunces: 'Fraunces', serif;
+    --fFamily__Montserrat: 'Montserrat', sans-serif;
+
+
+}
+/* ------------- general ----------------- */
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+s {
+  position: relative;
+
+  &::before,
+  &::after {
+    @extend .visually-hidden;
+  }
+}
+
+s::before {
+  content: ' ';
+}
+s::after {
+  content: ' ';
+}
+
+/* --------------- Main content -------------- */
+.product__card{
+
+}
+
+.image__card{
+
+}
+
+.text__card{
+
+}
+
+.attribution{
+    
+}
