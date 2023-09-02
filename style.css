@@ -46,7 +46,12 @@ s::after {
 
 /* --------------- Main content -------------- */
 .product__card{
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width:343px;
+  height:611px
 }
 
 .image__card{
