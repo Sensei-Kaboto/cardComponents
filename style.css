@@ -53,6 +53,7 @@ s::after {
 }
 
 /* --------------- Main content -------------- */
+
 .product__card{
   display: flex;
   justify-content: center;
@@ -142,19 +143,16 @@ button img{
   height: 16px;
   margin-right: 5px;
 }
-.attribution{
-    text-align: center;
-    font-size: 1.2rem;
-    color: var(--Dark__grayish__blue);
-}
+
 
 /* ------------------ media querry ------------------ */
-@media (min-width:23.4em){
-  body{
-    margin: 175px auto;
-  }
+@media (min-width:23.5em){
+ 
   .product__card{
     flex-direction: row;
+    margin-left: 90%;
+    margin-top: 175px;
+    margin-bottom: 175px;
     border-radius: 8px ;
     width: 600px;
   }
@@ -164,7 +162,6 @@ button img{
     width: 335px;
   }
   .text__card{
-    /* margin:  16px 32px; */
     margin-top: 0px;
     width: 236px;
   }
@@ -173,6 +170,8 @@ button img{
     width: 236px;
     margin: 0px;
   }
+
+  
 
  
 }
