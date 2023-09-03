@@ -29,10 +29,13 @@ h2,
 span,
 body{
     margin: 0;
-    padding: 0;
-    /* width:343px; */   
+    padding: 0; 
 }
 
+body{
+  background-color: var(--Cream);
+  width: 375px;
+}
 s {
   position: relative;
 
@@ -55,19 +58,24 @@ s::after {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 18px auto;
-  border-radius: 50px;
+  margin: 25px auto;
+  border-radius: 8px;
   overflow: hidden;
+  background-color: var(--White);
+  width: 345px;
+  margin-bottom: 10px;
+  
 }
 
 .image__card  img{
   height: 240px;
+  width: 345px;
   
 }
 
 .text__card{
   margin: 24px;
-  margin-top: 12px;
+  width: 295px;
 }
 
 .text__card hgroup p {
@@ -87,6 +95,7 @@ hgroup h2 {
   font-weight: 700;
   margin-top:12px;
   margin-bottom: 16px;
+  line-height: 32px; 
 }
 
 .text__card p{
@@ -121,7 +130,6 @@ button {
   border: none;
   width: 295px;
   padding: 18px;
-  margin: 0px 24px;
   border-radius: 8px;
 }
 
@@ -142,15 +150,18 @@ button img{
 
 /* ------------------ media querry ------------------ */
 @media (min-width:23.5em){
+  body{
+    margin: 175px auto;
+  }
   .product__card{
     flex-direction: row;
-    margin: 175px auto;
     border-radius: 8px ;
     width: 600px;
   }
 
   .image__card  img{
     height: 450px;
+    width: 335px;
   }
   .text__card{
     /* margin:  16px 32px; */
@@ -162,4 +173,6 @@ button img{
     width: 236px;
     margin: 0px;
   }
+
+ 
 }
