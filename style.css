@@ -113,9 +113,9 @@ hgroup h2 {
 }
 
 button {
-  font-weight: 500;
+  font-weight: 700;
   font-family: var(--fFamily__Montserrat);
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   color: var(--White);
   background-color: var(--Dark__cyan);
   border: none;
@@ -128,8 +128,38 @@ button {
 button:hover{
   background-color: var(--button__hover);
 }
+
+button img{
+  width: 14.385px;
+  height: 16px;
+  margin-right: 5px;
+}
 .attribution{
     text-align: center;
     font-size: 1.2rem;
     color: var(--Dark__grayish__blue);
+}
+
+/* ------------------ media querry ------------------ */
+@media (min-width:23.5em){
+  .product__card{
+    flex-direction: row;
+    margin: 175px auto;
+    border-radius: 8px ;
+    width: 600px;
+  }
+
+  .image__card  img{
+    height: 450px;
+  }
+  .text__card{
+    /* margin:  16px 32px; */
+    margin-top: 0px;
+    width: 236px;
+  }
+
+  button{
+    width: 236px;
+    margin: 0px;
+  }
 }
