@@ -149,7 +149,7 @@ button img{
 }
 
 /* ------------------ media querry ------------------ */
-@media (min-width:23.5em){
+@media (min-width:23.4em){
   body{
     margin: 175px auto;
   }
