@@ -7,6 +7,7 @@
     --Very__dark__blue: hsl(212, 21%, 14%);
     --Dark__grayish__blue: hsl(228, 12%, 48%);
     --White: hsl(0, 0%, 100%);
+    --button__hover:hsla(157, 43%, 18%, 1);
 
     /* ---------- Typography -------------- */
     --fSize : 1.4rem; 
@@ -110,6 +111,25 @@ hgroup h2 {
     margin-left: 10px;
 
 }
+
+button {
+  font-weight: 500;
+  font-family: var(--fFamily__Montserrat);
+  font-size: 1.3rem;
+  color: var(--White);
+  background-color: var(--Dark__cyan);
+  border: none;
+  width: 295px;
+  padding: 18px;
+  margin: 0px 24px;
+  border-radius: 8px;
+}
+
+button:hover{
+  background-color: var(--button__hover);
+}
 .attribution{
-    
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--Dark__grayish__blue);
 }
