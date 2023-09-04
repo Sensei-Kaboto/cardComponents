@@ -34,7 +34,7 @@ body{
 
 body{
   background-color: var(--Cream);
-  width: 375px;
+  /* width: 375px; */
 }
 s {
   position: relative;
@@ -69,7 +69,7 @@ s::after {
 }
 
 .image__card  img{
-  height: 240px;
+  /* height: 240px; */
   width: 345px;
   
 }
@@ -146,12 +146,14 @@ button img{
 
 
 /* ------------------ media querry ------------------ */
-@media (min-width:43.75em){
+@media (min-width:376px) and (max-width:1440px){
  
   .product__card{
     flex-direction: row;
     border-radius: 8px ;
     width: 600px;
+    margin: 175px auto;
+  
   }
 
   .image__card  img{
@@ -160,12 +162,20 @@ button img{
   }
   .text__card{
     margin-top: 0px;
+    margin-bottom: 0px;
     width: 236px;
   }
+  .text__card hgroup p{
+    margin-top: 15px;
+  }
 
+  .text__card p span{
+    margin-top: 10px;
+  }
   button{
     width: 236px;
     margin: 0px;
+    margin-top: 6px;
   }
 
   
