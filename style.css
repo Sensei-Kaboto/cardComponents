@@ -146,13 +146,10 @@ button img{
 
 
 /* ------------------ media querry ------------------ */
-@media (min-width:23.5em){
+@media (min-width:31.26em){
  
   .product__card{
     flex-direction: row;
-    margin-left: 90%;
-    margin-top: 175px;
-    margin-bottom: 175px;
     border-radius: 8px ;
     width: 600px;
   }
