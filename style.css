@@ -34,7 +34,6 @@ body{
 
 body{
   background-color: var(--Cream);
-  /* width: 375px; */
 }
 s {
   position: relative;
@@ -64,12 +63,18 @@ s::after {
   overflow: hidden;
   background-color: var(--White);
   width: 345px;
+  height: 650px;
   margin-bottom: 10px;
   
 }
 
+.image__card{
+  height: 350px;
+  overflow: hidden;
+}
 .image__card  img{
-  /* height: 240px; */
+  
+  margin-top: -37%;
   width: 345px;
   
 }
@@ -77,6 +82,7 @@ s::after {
 .text__card{
   margin: 24px;
   width: 295px;
+  height: 450px;
 }
 
 .text__card hgroup p {
@@ -146,36 +152,49 @@ button img{
 
 
 /* ------------------ media querry ------------------ */
-@media (min-width:376px) and (max-width:1440px){
+@media (min-width:600px) and (max-width:1440px){
  
   .product__card{
     flex-direction: row;
     border-radius: 8px ;
     width: 600px;
     margin: 175px auto;
+    height: 450px;
   
   }
+
+  .image__card{
+    height: 450px;
+    overflow: none;
+  }
+  
 
   .image__card  img{
     height: 450px;
     width: 335px;
+    margin: 0;
   }
   .text__card{
     margin-top: 0px;
     margin-bottom: 0px;
     width: 236px;
   }
-  .text__card hgroup p{
-    margin-top: 15px;
+  .text__card hgroup p {
+    margin-top: 34px;
+  }
+
+  hgroup h2 {
+    margin-top: 20px;
+    margin-bottom: 24px;
   }
 
   .text__card p span{
-    margin-top: 10px;
+    margin-top: 20px;
   }
   button{
     width: 236px;
     margin: 0px;
-    margin-top: 6px;
+    margin-top: 10px;
   }
 
   
