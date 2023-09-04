@@ -152,7 +152,7 @@ button img{
 
 
 /* ------------------ media querry ------------------ */
-@media (min-width:600px) and (max-width:1440px){
+@media (min-width:650px) and (max-width:1440px){
  
   .product__card{
     flex-direction: row;
@@ -200,4 +200,10 @@ button img{
   
 
  
+}
+
+@media( max-width: 375px){
+  .image__card  img{
+    margin-top: 0;
+  }
 }
