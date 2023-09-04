@@ -146,7 +146,7 @@ button img{
 
 
 /* ------------------ media querry ------------------ */
-@media (min-width:31.26em){
+@media (min-width:43.75em){
  
   .product__card{
     flex-direction: row;
